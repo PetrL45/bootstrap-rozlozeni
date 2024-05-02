@@ -11,14 +11,12 @@
 <div class="container mt-3">
         <div class="row">
             <div class="col-3">
-            <div class="card-title text-center">Menu</div>
-                <div class="d-flex align-items-start">
-                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">About</button>
-                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Gallery</button>
-                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Legends</button>
-                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Gods</button>
-                </div>
+            <h4 class="card-title text-center">Menu</h4>
+                <div class="nav flex-column nav-pills" role="tablist">
+                <button class="nav-link active" data-bs-toggle="pill" type="button"aria-selected="true">About</button>
+                <button class="nav-link" data-bs-toggle="pill" type="button" aria-selected="false">Gallery</button>
+                <button class="nav-link" data-bs-toggle="pill" type="button" aria-selected="false">Legends</button>
+                <button class="nav-link" data-bs-toggle="pill" type="button" aria-selected="false">Gods</button>
                 </div>
             </div>
             <div class="col-9">
@@ -36,7 +34,7 @@
                             <div class="card-title display-6">Gallery</div>
                         </div>
                     <div class="row">
-                        <div class="col">
+                        <div class="col g-3">
                             <div class="card" style="width: 630px;">
                                 <img class="card-img-top" src="assets/images/vampire.png">
                                 <div class="card-body">
@@ -47,9 +45,12 @@
                                         The traditional vampire is typically a pale creature with pointed ears and long sharp fangs. They often wear long flowing capes or cloaks to hide their true nature from human eyes. Vampires feed on human blood in order to survive; though some vampires can also subsist on animal blood.
                                     </div>
                                 </div>
+                                <div class="card-footer">
+                                    <a href="#" class="card-link">Want learn more?</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col g-3">
                             <div class="card" style="width: 630px;">
                                 <img class="card-img-top" src="assets/images/werewolf.png">
                                 <div class="card-body">
@@ -58,11 +59,14 @@
                                         In Slavic folklore, werewolves are known as vukodlaks. They were believed to be people who were cursed by a spell or a bite from another werewolf. They were usually described as having the head and limbs of a wolf and the body of a human. Legends of vukodlaks often revolve around them being powerful and dangerous creatures, capable of wreaking havoc on people or villages. They were believed to be able to transform into wolves at will and could be killed only by a silver bullet or a crucifix. In some stories, they were said to be able to communicate with animals and even turn them into werewolves.
                                     </div>
                                 </div>
+                                <div class="card-footer">
+                                    <a href="#" class="card-link">Want learn more?</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col">
+                        <div class="col g-3">
                             <div class="card" style="width: 630px;">
                                 <img class="card-img-top" src="assets/images/leshy.png">
                                 <div class="card-body">
@@ -71,9 +75,12 @@
                                         The Leshy is a figure of Slavic folklore, a woodland spirit or spirit of the woodlands. It is said to have the power to control the animals of the forest and to shape-shift into various forms. The Leshy is usually described as a tall man with a bushy beard and long hair, wearing a green coat and a tall green hat. He often carries a staff made of fir wood and can also be seen with a bag of coins on his back. He is said to have a deep, resonant voice and to be very helpful to those who are lost in the forest. He can also be very dangerous to those who do not respect the woods and its creatures.
                                     </div>
                                 </div>
+                                <div class="card-footer">
+                                    <a href="#" class="card-link">Want learn more?</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col g-3">
                             <div class="card" style="width: 630px;">
                                 <img class="card-img-top" src="assets/images/rusalka.png">
                                 <div class="card-body">
@@ -82,6 +89,9 @@
                                         Rusalka is a female spirit in Slavic folklore and mythology. She is usually depicted as a beautiful young woman with long hair, pale skin, and a white dress. She is believed to inhabit lakes and rivers, and can sometimes be seen dancing and singing near the water's edge. In some stories, she is said to lure people to their deaths with her singing. Other tales tell of her helping lost travelers and aiding those in need. In some cases, she is also known to punish those who have wronged her or her kind.
                                     </div>
                                 </div>
+                                <div class="card-footer">
+                                <a href="#" class="card-link">Want learn more?</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -89,9 +99,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <div class="container">
         <div class="row">
-            <div class="col-4">© 2022 MythosWorks, Inc</div>
-            <div class="col-4">Texts generated with <a href="https://platform.openai.com/playground">GPT-3</a></div>
-            <div class="col-4">Images made using <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion">Stable Diffusion</a></div>
+            <div class="col-4 text-center">© 2022 MythosWorks, Inc</div>
+            <div class="col-4 text-center">Texts generated with <a href="https://platform.openai.com/playground">GPT-3</a></div>
+            <div class="col-4 text-center">Images made using <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion">Stable Diffusion</a></div>
         </div> 
     </div>
 </body>
